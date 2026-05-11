@@ -1,0 +1,529 @@
+{
+  "users": [
+    {
+      "id": "student-1",
+      "name": "Kishan Pandey",
+      "college": "KIIT University",
+      "xp": 365,
+      "level": 4,
+      "streak": 7,
+      "lastAttemptDate": "2026-05-08",
+      "completedQuizzes": 9,
+      "badges": [
+        "Century XP",
+        "3-Day Streak",
+        "First Quiz Completed",
+        "Quiz Explorer"
+      ]
+    },
+    {
+      "id": "student-2",
+      "name": "Aman Verma",
+      "college": "KIIT University",
+      "xp": 150,
+      "level": 2,
+      "streak": 4,
+      "lastAttemptDate": "2026-05-07",
+      "completedQuizzes": 3,
+      "badges": [
+        "3-Day Streak"
+      ]
+    },
+    {
+      "id": "student-3",
+      "name": "Priya Singh",
+      "college": "KIIT University",
+      "xp": 120,
+      "level": 2,
+      "streak": 3,
+      "lastAttemptDate": "2026-05-06",
+      "completedQuizzes": 2,
+      "badges": [
+        "First Quiz Completed"
+      ]
+    },
+    {
+      "id": "student-1778261919581",
+      "name": "Amit",
+      "college": "NIT Patna",
+      "xp": 0,
+      "level": 1,
+      "streak": 0,
+      "lastAttemptDate": null,
+      "completedQuizzes": 0,
+      "badges": []
+    },
+    {
+      "id": "student-1778262783111",
+      "name": "Aditya",
+      "college": "kiit",
+      "email": "2329185@kiit.ac.it",
+      "xp": 0,
+      "level": 1,
+      "streak": 0,
+      "lastAttemptDate": null,
+      "completedQuizzes": 0,
+      "badges": []
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-1",
+      "subject": "Database Management Systems",
+      "question": "Which SQL command is used to remove all rows from a table while keeping its structure?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "TRUNCATE",
+        "REMOVE"
+      ],
+      "correctAnswer": "TRUNCATE",
+      "level": "Easy",
+      "category": "Computer Science",
+      "tags": ["SQL", "Database", "DDL"]
+    },
+    {
+      "id": "quiz-2",
+      "subject": "JavaScript",
+      "question": "Which keyword is used to declare a variable that cannot be reassigned in JavaScript?",
+      "options": [
+        "var",
+        "let",
+        "const",
+        "static"
+      ],
+      "correctAnswer": "const",
+      "level": "Easy",
+      "category": "Programming",
+      "tags": ["JavaScript", "Variables", "ES6"]
+    },
+    {
+      "id": "quiz-3",
+      "subject": "HTML",
+      "question": "What does the HTML <code>&lt;nav&gt;</code> element represent?",
+      "options": [
+        "Navigation links",
+        "Section heading",
+        "Navigation links",
+        "Form input"
+      ],
+      "correctAnswer": "Navigation links",
+      "level": "Easy",
+      "category": "Web Development",
+      "tags": ["HTML", "Semantic", "Navigation"]
+    },
+    {
+      "id": "quiz-4",
+      "subject": "CSS",
+      "question": "Which CSS property controls the space between lines of text?",
+      "options": [
+        "letter-spacing",
+        "line-height",
+        "text-align",
+        "word-spacing"
+      ],
+      "correctAnswer": "line-height",
+      "level": "Medium",
+      "category": "Web Development",
+      "tags": ["CSS", "Typography", "Layout"]
+    },
+    {
+      "id": "quiz-5",
+      "subject": "Computer Networks",
+      "question": "Which device is used to connect multiple devices in the same LAN and forward packets only to the destination device?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Router",
+        "Bridge"
+      ],
+      "correctAnswer": "Switch",
+      "level": "Medium",
+      "category": "Computer Science",
+      "tags": ["Networking", "Hardware", "LAN"]
+    },
+    {
+      "id": "quiz-6",
+      "subject": "Python Programming",
+      "question": "Which of the following is NOT a valid Python data type?",
+      "options": [
+        "list",
+        "tuple",
+        "array",
+        "dict"
+      ],
+      "correctAnswer": "array",
+      "level": "Easy",
+      "category": "Programming",
+      "tags": ["Python", "Data Types", "Collections"]
+    },
+    {
+      "id": "quiz-7",
+      "subject": "Data Structures",
+      "question": "What is the time complexity of accessing an element in an array by index?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "correctAnswer": "O(1)",
+      "level": "Medium",
+      "category": "Computer Science",
+      "tags": ["Data Structures", "Arrays", "Time Complexity"]
+    },
+    {
+      "id": "quiz-8",
+      "subject": "Operating Systems",
+      "question": "Which scheduling algorithm can lead to starvation?",
+      "options": [
+        "Round Robin",
+        "First Come First Served",
+        "Shortest Job First",
+        "Priority Scheduling"
+      ],
+      "correctAnswer": "Priority Scheduling",
+      "level": "Hard",
+      "category": "Computer Science",
+      "tags": ["OS", "Scheduling", "Starvation"]
+    },
+    {
+      "id": "quiz-9",
+      "subject": "React.js",
+      "question": "Which hook is used to manage state in functional components?",
+      "options": [
+        "useEffect",
+        "useState",
+        "useContext",
+        "useReducer"
+      ],
+      "correctAnswer": "useState",
+      "level": "Medium",
+      "category": "Web Development",
+      "tags": ["React", "Hooks", "State Management"]
+    },
+    {
+      "id": "quiz-10",
+      "subject": "Mathematics",
+      "question": "What is the derivative of sin(x)?",
+      "options": [
+        "cos(x)",
+        "-sin(x)",
+        "tan(x)",
+        "sec(x)"
+      ],
+      "correctAnswer": "cos(x)",
+      "level": "Medium",
+      "category": "Mathematics",
+      "tags": ["Calculus", "Trigonometry", "Derivatives"]
+    },
+    {
+      "id": "quiz-11",
+      "subject": "Physics",
+      "question": "What is the SI unit of force?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Newton",
+        "Pascal"
+      ],
+      "correctAnswer": "Newton",
+      "level": "Easy",
+      "category": "Science",
+      "tags": ["Physics", "Units", "Mechanics"]
+    },
+    {
+      "id": "quiz-12",
+      "subject": "Chemistry",
+      "question": "What is the atomic number of Carbon?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "correctAnswer": "6",
+      "level": "Easy",
+      "category": "Science",
+      "tags": ["Chemistry", "Elements", "Periodic Table"]
+    },
+    {
+      "id": "quiz-13",
+      "subject": "Biology",
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Endoplasmic Reticulum"
+      ],
+      "correctAnswer": "Mitochondria",
+      "level": "Easy",
+      "category": "Science",
+      "tags": ["Biology", "Cell Biology", "Organelles"]
+    },
+    {
+      "id": "quiz-14",
+      "subject": "English Literature",
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": [
+        "Jane Austen",
+        "Charlotte Brontë",
+        "Emily Brontë",
+        "George Eliot"
+      ],
+      "correctAnswer": "Jane Austen",
+      "level": "Easy",
+      "category": "Literature",
+      "tags": ["English", "Novels", "Classic Literature"]
+    },
+    {
+      "id": "quiz-15",
+      "subject": "History",
+      "question": "In which year did World War II end?",
+      "options": [
+        "1944",
+        "1945",
+        "1946",
+        "1947"
+      ],
+      "correctAnswer": "1945",
+      "level": "Easy",
+      "category": "Social Studies",
+      "tags": ["History", "World War II", "Modern History"]
+    },
+    {
+      "id": "quiz-16",
+      "subject": "Economics",
+      "question": "What does GDP stand for?",
+      "options": [
+        "Gross Domestic Product",
+        "General Domestic Price",
+        "Global Development Program",
+        "Government Development Plan"
+      ],
+      "correctAnswer": "Gross Domestic Product",
+      "level": "Easy",
+      "category": "Business",
+      "tags": ["Economics", "Macroeconomics", "GDP"]
+    },
+    {
+      "id": "quiz-17",
+      "subject": "Psychology",
+      "question": "Which psychologist is known for the hierarchy of needs?",
+      "options": [
+        "Sigmund Freud",
+        "Abraham Maslow",
+        "Carl Jung",
+        "B.F. Skinner"
+      ],
+      "correctAnswer": "Abraham Maslow",
+      "level": "Medium",
+      "category": "Social Science",
+      "tags": ["Psychology", "Motivation", "Maslow"]
+    },
+    {
+      "id": "quiz-18",
+      "subject": "Geography",
+      "question": "Which is the longest river in the world?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "correctAnswer": "Nile",
+      "level": "Easy",
+      "category": "Social Studies",
+      "tags": ["Geography", "Rivers", "World Records"]
+    },
+    {
+      "id": "quiz-19",
+      "subject": "Statistics",
+      "question": "What does the term 'mean' represent in statistics?",
+      "options": [
+        "Middle value",
+        "Most frequent value",
+        "Average value",
+        "Range of values"
+      ],
+      "correctAnswer": "Average value",
+      "level": "Easy",
+      "category": "Mathematics",
+      "tags": ["Statistics", "Mean", "Central Tendency"]
+    },
+    {
+      "id": "quiz-20",
+      "subject": "Machine Learning",
+      "question": "Which algorithm is used for classification problems?",
+      "options": [
+        "Linear Regression",
+        "Decision Tree",
+        "K-Means Clustering",
+        "Principal Component Analysis"
+      ],
+      "correctAnswer": "Decision Tree",
+      "level": "Hard",
+      "category": "Computer Science",
+      "tags": ["ML", "Classification", "Algorithms"]
+    },
+    {
+      "id": "quiz-21",
+      "subject": "Cybersecurity",
+      "question": "What type of attack involves tricking users into revealing sensitive information?",
+      "options": [
+        "DDoS",
+        "Phishing",
+        "SQL Injection",
+        "Buffer Overflow"
+      ],
+      "correctAnswer": "Phishing",
+      "level": "Medium",
+      "category": "Computer Science",
+      "tags": ["Security", "Phishing", "Social Engineering"]
+    },
+    {
+      "id": "quiz-22",
+      "subject": "Cloud Computing",
+      "question": "Which cloud service model provides infrastructure as a service?",
+      "options": [
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "FaaS"
+      ],
+      "correctAnswer": "IaaS",
+      "level": "Medium",
+      "category": "Computer Science",
+      "tags": ["Cloud", "IaaS", "Infrastructure"]
+    },
+    {
+      "id": "quiz-23",
+      "subject": "Mobile Development",
+      "question": "Which programming language is primarily used for Android app development?",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Objective-C",
+        "Dart"
+      ],
+      "correctAnswer": "Kotlin",
+      "level": "Easy",
+      "category": "Programming",
+      "tags": ["Android", "Mobile", "Kotlin"]
+    },
+    {
+      "id": "quiz-24",
+      "subject": "DevOps",
+      "question": "What does CI/CD stand for?",
+      "options": [
+        "Continuous Integration/Continuous Deployment",
+        "Code Integration/Code Deployment",
+        "Continuous Improvement/Continuous Development",
+        "Cloud Integration/Cloud Deployment"
+      ],
+      "correctAnswer": "Continuous Integration/Continuous Deployment",
+      "level": "Medium",
+      "category": "Computer Science",
+      "tags": ["DevOps", "CI/CD", "Automation"]
+    },
+    {
+      "id": "quiz-25",
+      "subject": "Blockchain",
+      "question": "What is the primary purpose of a blockchain?",
+      "options": [
+        "Fast transactions",
+        "Decentralized database",
+        "Data encryption",
+        "User authentication"
+      ],
+      "correctAnswer": "Decentralized database",
+      "level": "Medium",
+      "category": "Computer Science",
+      "tags": ["Blockchain", "Cryptocurrency", "Decentralization"]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "attempt-1778261601026",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 35,
+      "submittedAt": "2026-05-08T17:33:21.026Z"
+    },
+    {
+      "id": "attempt-1778261516243",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 35,
+      "submittedAt": "2026-05-08T17:31:56.243Z"
+    },
+    {
+      "id": "attempt-1778261512696",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 35,
+      "submittedAt": "2026-05-08T17:31:52.696Z"
+    },
+    {
+      "id": "attempt-1778261497095",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 35,
+      "submittedAt": "2026-05-08T17:31:37.095Z"
+    },
+    {
+      "id": "attempt-1778261491809",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 35,
+      "submittedAt": "2026-05-08T17:31:31.809Z"
+    },
+    {
+      "id": "attempt-1778260661273",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 25,
+      "submittedAt": "2026-05-08T17:17:41.273Z"
+    },
+    {
+      "id": "attempt-1778260657004",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 25,
+      "submittedAt": "2026-05-08T17:17:37.004Z"
+    },
+    {
+      "id": "attempt-1778260652942",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 25,
+      "submittedAt": "2026-05-08T17:17:32.942Z"
+    },
+    {
+      "id": "attempt-1778260643778",
+      "userId": "student-1",
+      "quizId": "quiz-1",
+      "answer": "TRUNCATE",
+      "isCorrect": true,
+      "xpEarned": 25,
+      "submittedAt": "2026-05-08T17:17:23.778Z"
+    }
+  ]
+}
