@@ -189,6 +189,19 @@ export default function App() {
   } = state;
 
   /**
+   * Check for saved user on app load
+   */
+  useEffect(() => {
+    const savedUserId = localStorage.getItem("studyquestUserId");
+    if (savedUserId) {
+      dispatch({ type: ACTION_TYPES.SET_USER_ID, payload: savedUserId });
+      loadDashboard(savedUserId);
+    } else {
+      dispatch({ type: ACTION_TYPES.SET_AUTH_LOADING, payload: false });
+    }
+  }, []);
+
+  /**
    * Load user dashboard
    */
   async function loadDashboard(userId) {
